@@ -25,7 +25,7 @@ SECRET_KEY = 'rvk)sl*=qb*hv87tu(w&v0d56l_uzb+y1x#9!g%!qc)z81vult'
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
 
-ALLOWED_HOSTS = ["localhost", "192.168.1.6"]
+ALLOWED_HOSTS = []
 
 
 # Application definition
@@ -86,7 +86,7 @@ DATABASES = {
         'ENGINE': 'django.db.backends.postgresql',
         'NAME': 'btredb',
         'USER': 'postgres',
-        'PASSWORD': '!Nolanryan2316',
+        'PASSWORD': 'mypassword',
         'HOST': 'localhost'
     }
 }
